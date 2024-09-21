@@ -3,7 +3,6 @@
     margin-bottom: 69px;
 }
 .img-gradient {
-    /* position: relative; */
     display: flex;
     align-items: center;
     width: 100%;
@@ -29,7 +28,6 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 0), #2f2e36);
     z-index: 1;
 }
-
 .header-content {
     position: absolute;
     display: flex;
@@ -44,7 +42,6 @@
     position: absolute;
     z-index: 1;
 }
-
 .header-title {
     max-width: 475px;
     font-family: "Source Serif 4";
@@ -62,7 +59,6 @@
     font-weight: 400;
     margin: 10px 0 30px;
 }
-
 .header-reviews {
     display: flex;
     justify-content: space-between;

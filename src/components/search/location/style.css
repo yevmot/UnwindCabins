@@ -1,0 +1,14 @@
+.form-wrapper {
+    height: 54px;
+    width: 296px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.img-wrapper {
+    margin: 0 17px;
+    display: flex;
+    align-items: center;
+}

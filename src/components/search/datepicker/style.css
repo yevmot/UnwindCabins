@@ -1,0 +1,14 @@
+.date-wrapper {
+    background-color: #eaeaea;
+    border-radius: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.date-picker {
+    height: 54px;
+    width: 98px;
+}
+.date-wrapper .img-wrapper {
+    margin: 0 10px 0 17.5px;
+}

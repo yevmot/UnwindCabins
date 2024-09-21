@@ -5,6 +5,7 @@
 @import url("./../components/header/style.css");
 @import url("./../components/Discover/style.css");
 @import url("./../components/cards/style.css");
+@import url("./../components/search/style.css");
 
 :root {
     --light-green: #1bb580;
