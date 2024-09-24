@@ -16,7 +16,7 @@ function DatePickerOut() {
                 placeholderText="Check out"
                 selected={checkOutDate}
                 onChange={(date) => setCheckOutDate(date)}
-                dateFormat="dd/MM/yyyy"
+                dateFormat="dd.MM.yyyy"
             />
         </div>
     );

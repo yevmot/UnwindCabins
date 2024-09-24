@@ -1,4 +1,3 @@
-import Card01 from "./../../img/cards/Discover-card01.jpg";
 import Fullstar from "./../../img/cards/full-star.svg";
 import Cleanstar from "./../../img/cards/clean-star.svg";
 

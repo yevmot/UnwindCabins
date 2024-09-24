@@ -4,6 +4,9 @@ import Header from "./components/header/Header";
 import Discover from "./components/Discover/Discover";
 import Cards from "./components/cards/Cards";
 import Search from "./components/search/Search";
+import Inspiration from "./components/inspiration/Inspiration";
+import InspirationCards from "./components/inspiration/cards/InspirationCards";
+import Experience from "./components/experience/Experience";
 
 function App() {
     return (
@@ -13,6 +16,9 @@ function App() {
             <Search />
             <Discover />
             <Cards />
+            <Inspiration />
+            <InspirationCards />
+            <Experience />
         </div>
     );
 }

@@ -16,7 +16,7 @@ function DatePickerIn() {
                 placeholderText="Check in"
                 selected={checkInDate}
                 onChange={(date) => setCheckInDate(date)}
-                dateFormat="dd/MM/yyyy"
+                dateFormat="dd.MM.yyyy"
             />
         </div>
     );
