@@ -1,3 +1,4 @@
+import InspirationCards from "./../../components/inspiration/cards/InspirationCards";
 import "./style.css";
 
 const Inspiration = () => {
@@ -16,6 +17,7 @@ const Inspiration = () => {
                     <span className="view-all">View all experiences</span>
                 </div>
             </div>
+            <InspirationCards />
         </div>
     );
 };

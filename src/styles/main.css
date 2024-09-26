@@ -21,7 +21,7 @@ body {
 .big-container {
     margin: 0 auto;
     max-width: 1561px;
-    max-height: 500px;
+    height: auto;
 }
 .container {
     width: 1044px;

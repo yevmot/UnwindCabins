@@ -1,3 +1,4 @@
+import Cards from "./../../components/cards/Cards";
 const Discover = () => {
     return (
         <div className="container">
@@ -14,6 +15,7 @@ const Discover = () => {
                     <span className="view-all">View all cabins</span>
                 </div>
             </div>
+            <Cards />
         </div>
     );
 };

@@ -2,11 +2,11 @@ import "./styles/main.css";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Discover from "./components/Discover/Discover";
-import Cards from "./components/cards/Cards";
 import Search from "./components/search/Search";
 import Inspiration from "./components/inspiration/Inspiration";
-import InspirationCards from "./components/inspiration/cards/InspirationCards";
 import Experience from "./components/experience/Experience";
+import VideoBlock from "./components/videoBlock/VideoBlock";
+import Find from "./components/find/Find";
 
 function App() {
     return (
@@ -15,10 +15,10 @@ function App() {
             <Header />
             <Search />
             <Discover />
-            <Cards />
             <Inspiration />
-            <InspirationCards />
             <Experience />
+            <VideoBlock />
+            <Find />
         </div>
     );
 }
