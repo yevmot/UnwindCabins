@@ -1,0 +1,13 @@
+/* .btn {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-green);
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    color: var(--orange);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+} */

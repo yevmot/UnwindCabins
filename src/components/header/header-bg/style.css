@@ -1,0 +1,26 @@
+.img-gradient {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: black;
+}
+.header-bg {
+    position: relative;
+    flex: 1;
+    z-index: 1;
+    height: 500px;
+}
+.header-img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+.header-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #2f2e36);
+    z-index: 1;
+}
