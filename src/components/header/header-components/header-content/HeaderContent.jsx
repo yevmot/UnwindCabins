@@ -1,10 +1,10 @@
-import Review1 from "./../../../img/revies/client-1.jpg";
-import Review2 from "./../../../img/revies/client-2.jpg";
-import Review3 from "./../../../img/revies/client-3.jpg";
-import Review4 from "./../../../img/revies/client-4.jpg";
-import Review5 from "./../../../img/revies/client-5.jpg";
-import Star from "./../../../img/icons/star.svg";
-import Truspilot from "./../../../img/icons/trustpilot.svg";
+import Review1 from "./../../../../img/revies/client-1.jpg";
+import Review2 from "./../../../../img/revies/client-2.jpg";
+import Review3 from "./../../../../img/revies/client-3.jpg";
+import Review4 from "./../../../../img/revies/client-4.jpg";
+import Review5 from "./../../../../img/revies/client-5.jpg";
+import Star from "./../../../../img/icons/star.svg";
+import Truspilot from "./../../../../img/icons/trustpilot.svg";
 
 import "./style.css";
 

@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 26px;
+    margin: 26px 0;
 }
-header .logo__first-half {
+.logo__first-half {
     color: var(--light-green);
 }
-header .logo__second-half {
+.logo__second-half {
     color: var(--dark-green);
 }
 .menu {
@@ -27,11 +27,16 @@ header .logo__second-half {
 .login {
     border: 1px solid #3f3f3f;
     line-height: 1;
-    padding: 1em;
-    border-radius: 50%;
     transition: all 0.5s ease;
 }
 .login:hover {
     cursor: pointer;
     box-shadow: 0 0 12px #3f3f3f98;
+}
+.login {
+    border-radius: 50%;
+}
+.login button {
+    width: 48px;
+    height: 48px;
 }

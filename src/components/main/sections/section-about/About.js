@@ -1,4 +1,5 @@
 import Arrow from "./../../../../img/icons/arrow-right-circle.svg";
+import Button from "../../../buttons/Button.jsx";
 import "./style.css";
 
 const About = () => {
@@ -17,10 +18,13 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="btn">
-                        <button type="button">
-                            About our cabins
-                            <img src={Arrow} alt="arrow" />
-                        </button>
+                        <Button
+                            text="About our cabins"
+                            icon={Arrow}
+                            bgColor="var(--dark-green)"
+                            textColor="white"
+                            hoverColor="var(--orange)"
+                        />
                     </div>
                 </div>
                 <div className="about-info">
@@ -32,10 +36,15 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="btn">
-                        <button type="button">
-                            Tell me more about the cabin
-                            <img src={Arrow} alt="arrow" />
-                        </button>
+                        <Button
+                            text="Tell me more about the cabin"
+                            icon={Arrow}
+                            bgColor="var(--dark-green)"
+                            textColor="white"
+                            hoverColor="var(--orange)"
+                            fontSize="16px"
+                            fontWeight="400"
+                        />
                     </div>
                 </div>
                 <div className="about-info">
@@ -47,10 +56,15 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="btn">
-                        <button type="button">
-                            Pets, family & friends
-                            <img src={Arrow} alt="arrow" />
-                        </button>
+                        <Button
+                            text="Pets, family & friends"
+                            icon={Arrow}
+                            bgColor="var(--dark-green)"
+                            textColor="white"
+                            hoverColor="var(--orange)"
+                            fontSize="16px"
+                            fontWeight="400"
+                        />
                     </div>
                 </div>
                 <div className="live-chat">

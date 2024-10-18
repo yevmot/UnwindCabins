@@ -1,5 +1,6 @@
 import BgImg from "./../../../../img/pre-footer-bg.jpg";
 import Shadow from "./../../../../img/pre-footer-shadow.png";
+import Button from "../../../buttons/Button";
 import "./style.css";
 
 const PreFooter = () => {
@@ -15,7 +16,12 @@ const PreFooter = () => {
                         retreats.
                     </p>
                     <div className="pre-footer-btn">
-                        <button type="button">Find the perfect getaway</button>
+                        <Button
+                            text="Find the perfect getaway"
+                            bgColor="#d4eeec"
+                            textColor="var(--dark-green)"
+                            hoverColor=""
+                        />
                     </div>
                 </div>
                 <img className="shadow" src={Shadow} alt="shadow" />

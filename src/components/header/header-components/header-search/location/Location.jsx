@@ -1,4 +1,4 @@
-import Map from "./../../../../img/icons/map.svg";
+import Map from "./../../../../../img/icons/map.svg";
 
 const Location = () => {
     return (

@@ -1,3 +1,4 @@
+import Button from "../../buttons/Button.jsx";
 import "./style.css";
 const FooterForm = () => {
     return (
@@ -18,7 +19,12 @@ const FooterForm = () => {
                             class="mail-form"
                             placeholder="james@thegaintpeach.com"
                         />
-                        <button type="button">Join the mailing list</button>
+                        <Button
+                            text="Join the mailing list"
+                            bgColor="var(--orange)"
+                            textColor="var(--dark-green)"
+                            hoverColor=""
+                        />
                     </div>
                 </div>
                 <span className="footer-line"></span>

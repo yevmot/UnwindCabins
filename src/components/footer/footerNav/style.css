@@ -10,6 +10,7 @@ footer .big-container {
     font-weight: 400;
     background-color: black;
     line-height: 1.7;
+    padding-top: 30px;
 }
 .nav-about {
     display: flex;

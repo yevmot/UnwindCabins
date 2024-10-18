@@ -26,13 +26,13 @@
     padding: 0 20px;
     color: black;
 }
-footer button {
+footer Button {
     color: var(--dark-green);
     width: 195px;
     background-color: var(--orange);
     transition: all 0.3s ease;
 }
-footer button:hover {
+footer Button:hover {
     transform: scale(1.02);
 }
 .footer-line {

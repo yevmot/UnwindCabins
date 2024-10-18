@@ -1,6 +1,6 @@
 import Select from "react-dropdown";
 import "react-dropdown/style.css";
-import TravImg from "./../../../../img/icons/travellers.svg";
+import TravImg from "./../../../../../img/icons/travellers.svg";
 
 const Dropdown = () => {
     const options = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

@@ -64,5 +64,5 @@ ul li {
     transition: all 0.3s ease;
 }
 .live-chat button:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
 }

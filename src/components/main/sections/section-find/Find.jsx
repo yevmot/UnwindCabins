@@ -1,4 +1,5 @@
 import imgBg from "./../../../../img/find-img-bg.jpg";
+import Button from "../../../buttons/Button";
 import "./style.css";
 
 const Find = () => {
@@ -22,7 +23,12 @@ const Find = () => {
                         rejuvenated and refreshed.
                     </p>
                     <div className="btn">
-                        <button type="button">Find avilable cabins</button>
+                        <Button
+                            text="Find avilable cabins"
+                            bgColor="var(--orange)"
+                            textColor="black"
+                            hoverColor=""
+                        />
                     </div>
                 </div>
             </div>

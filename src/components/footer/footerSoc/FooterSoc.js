@@ -10,7 +10,7 @@ const FooterSoc = () => {
         <div className="big-container">
             <div className="container">
                 <div className="footer-soc">
-                    <div className="logo">
+                    <div className="logo no-select">
                         <label className="logo__first-half">Unwind</label>
                         <label className="logo__second-half">Cabins</label>
                     </div>
