@@ -7,7 +7,7 @@ const HeaderBg = () => {
             <div className="header-bg">
                 <div className="header-gradient"></div>
             </div>
-            <img src={HeaderImg} className="header-img" />
+            <img src={HeaderImg} alt="header-img" className="header-img" />
         </div>
     );
 };

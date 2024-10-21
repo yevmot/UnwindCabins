@@ -23,38 +23,42 @@ const HeaderContent = () => {
             <div className="header-reviews">
                 <div className="review-imgs">
                     <div className="review-img review-1">
-                        <img src={Review1} />
+                        <img src={Review1} alt="review-img-1" />
                     </div>
                     <div className="review-img review-2">
-                        <img src={Review2} />
+                        <img src={Review2} alt="review-img-2" />
                     </div>
                     <div className="review-img review-3">
-                        <img src={Review3} />
+                        <img src={Review3} alt="review-img-3" />
                     </div>
                     <div className="review-img review-4">
-                        <img src={Review4} />
+                        <img src={Review4} alt="review-img-4" />
                     </div>
                     <div className="review-img review-5">
-                        <img src={Review5} />
+                        <img src={Review5} alt="review-img-5" />
                     </div>
                 </div>
                 <div className="review-stars">
-                    <img src={Truspilot} className="truspilot" />
+                    <img
+                        src={Truspilot}
+                        alt="Truspilot"
+                        className="truspilot"
+                    />
                     <div className="stars">
                         <div className="star">
-                            <img src={Star} />
+                            <img src={Star} alt="star" />
                         </div>
                         <div className="star">
-                            <img src={Star} />
+                            <img src={Star} alt="star" />
                         </div>
                         <div className="star">
-                            <img src={Star} />
+                            <img src={Star} alt="star" />
                         </div>
                         <div className="star">
-                            <img src={Star} />
+                            <img src={Star} alt="star" />
                         </div>
                         <div className="star">
-                            <img src={Star} />
+                            <img src={Star} alt="star" />
                         </div>
                     </div>
                     <span className="points">4.5 / 5</span>

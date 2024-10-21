@@ -1,57 +1,6 @@
-.select-wrapper {
-    position: relative;
-    width: 140px;
-    height: 54px;
-    background-color: #eaeaea;
+.css-9zkyij-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #47475f !important;
+}
+.css-e7n0v2 {
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-}
-.Dropdown-root .Dropdown-control {
-    background-color: #eaeaea;
-    border: none;
-    padding: 0;
-    transition: all 200ms ease;
-}
-.Dropdown-control .Dropdown-placeholder {
-    width: 80px;
-    color: #565656;
-    font-family: "Poppins";
-    font-weight: 400;
-    font-size: 16px;
-}
-.Dropdown-control .Dropdown-placeholder:hover {
-    cursor: pointer;
-}
-.Dropdown-arrow-wrapper .Dropdown-arrow {
-    display: none;
-}
-.Dropdown-menu {
-    position: absolute;
-    top: 0;
-    left: -51px;
-    width: 140px !important;
-    border-radius: 4px;
-}
-
-.is-open .Dropdown-menu {
-    background-color: #eaeaea;
-    border: none;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-    box-sizing: border-box;
-    margin-top: -1px;
-    max-height: 200px;
-    overflow-y: auto;
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    z-index: 1000;
-    -webkit-overflow-scrolling: touch;
-}
-.Dropdown-menu .Dropdown-option {
-    display: block;
-    box-sizing: border-box;
-    padding: 8px 22px;
-    color: #565656;
-    cursor: pointer;
 }

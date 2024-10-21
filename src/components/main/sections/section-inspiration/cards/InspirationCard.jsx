@@ -1,7 +1,7 @@
 const Card = ({ img, slogan, title, text }) => {
     return (
         <div className="card insp-card">
-            <img src={img} className="card-img" />
+            <img src={img} alt="card" className="card-img" />
             <div className="card-desc">
                 <span className="slogan">{slogan}</span>
                 <div className="card-title">

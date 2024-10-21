@@ -4,7 +4,7 @@ const Location = () => {
     return (
         <div className="form-wrapper">
             <div className="img-wrapper">
-                <img src={Map} />
+                <img src={Map} alt="map" />
             </div>
             <input
                 type="text"

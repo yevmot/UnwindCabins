@@ -1,8 +1,7 @@
 import Location from "./location/Location";
 import Travellers from "./travellers/Travellers";
 import FormBtn from "./button/FormBtn";
-import DatePickerIn from "./datepicker/DatePickerIn";
-import DatePickerOut from "./datepicker/DatePickerOut";
+import DatePickers from "./datepicker/DatePickers";
 import "./style.css";
 
 const Form = () => {
@@ -11,8 +10,7 @@ const Form = () => {
             <div className="form-container">
                 <div className="form">
                     <Location />
-                    <DatePickerIn />
-                    <DatePickerOut />
+                    <DatePickers />
                     <Travellers />
                     <FormBtn />
                 </div>

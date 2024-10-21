@@ -4,7 +4,7 @@ import CleanStar from "./../../../../../img/cards/clean-star.svg";
 const Card = ({ img, location, title, price, text, review }) => {
     return (
         <div className="card">
-            <img src={img} className="card-img" />
+            <img src={img} alt="card-img" className="card-img" />
             <div className="card-desc">
                 <span className="loc">{location}</span>
                 <div className="card-title">
@@ -17,11 +17,11 @@ const Card = ({ img, location, title, price, text, review }) => {
                 <p>{text}</p>
                 <div className="card-review">
                     <div className="stars">
-                        <img src={FullStar} />
-                        <img src={FullStar} />
-                        <img src={FullStar} />
-                        <img src={FullStar} />
-                        <img src={CleanStar} />
+                        <img src={FullStar} alt="star-img" />
+                        <img src={FullStar} alt="star-img" />
+                        <img src={FullStar} alt="star-img" />
+                        <img src={FullStar} alt="star-img" />
+                        <img src={CleanStar} alt="clean-star-img" />
                     </div>
                     <span>
                         <span id="reviewCount">{review}</span> reviews

@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <div className="big-container">
             <div className="exp-container">
-                <img src={BgImg} />
+                <img src={BgImg} alt="bg-img" />
                 <div className="exp-content">
                     <div className="title">A truly wonderful experience</div>
                     <p>
@@ -21,19 +21,19 @@ const Experience = () => {
                     <div className="review-stars">
                         <div className="stars">
                             <div className="star">
-                                <img src={Star} />
+                                <img src={Star} alt="star" />
                             </div>
                             <div className="star">
-                                <img src={Star} />
+                                <img src={Star} alt="star" />
                             </div>
                             <div className="star">
-                                <img src={Star} />
+                                <img src={Star} alt="star" />
                             </div>
                             <div className="star">
-                                <img src={Star} />
+                                <img src={Star} alt="star" />
                             </div>
                             <div className="star">
-                                <img src={Star} />
+                                <img src={Star} alt="star" />
                             </div>
                         </div>
                         <span className="points">01 Jan 2023</span>
