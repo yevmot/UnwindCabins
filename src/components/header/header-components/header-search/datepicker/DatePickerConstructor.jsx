@@ -27,7 +27,7 @@ function DatePickerIn({ label, minDate, value, onChange }) {
                     label={<LabelWithIcon label={label} />}
                     alue={value}
                     onChange={onChange}
-                    format="DD/MM/YYYY"
+                    format="DD.MM.YYYY"
                     minDate={dayjs(minDate)}
                     sx={{
                         height: "54px",
