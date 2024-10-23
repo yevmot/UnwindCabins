@@ -1,9 +1,16 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+    setCheckInDate,
+    setCheckOutDate,
+} from "../../../../../store/dateSlice";
 import DatePicker from "./DatePickerConstructor";
 
 function ParentComponent() {
-    const [checkInDate, setCheckInDate] = useState(null);
-    const [checkOutDate, setCheckOutDate] = useState(null);
+    const dispatch = useDispatch();
+
+    const checkInDate = useSelector((state) => state.dates.checkInDate);
+    const checkOutDate = useSelector((state) => state.dates.checkOutDate);
 
     return (
         <div style={{ display: "flex", gap: "8px" }}>
@@ -12,14 +19,14 @@ function ParentComponent() {
                 minDate={new Date()}
                 value={checkInDate}
                 onChange={(newDate) => {
-                    setCheckInDate(newDate);
-                    // Если Check Out меньше Check In, обнуляем его
+                    dispatch(setCheckInDate(newDate.toISOString()));
                     if (
+                        // Если Check Out меньше Check In, обнуляем его
                         checkOutDate &&
                         newDate &&
                         newDate.isAfter(checkOutDate)
                     ) {
-                        setCheckOutDate(null);
+                        dispatch(setCheckOutDate(null));
                     }
                 }}
             />
@@ -27,7 +34,9 @@ function ParentComponent() {
                 label="Check Out"
                 minDate={checkInDate || new Date()}
                 value={checkOutDate}
-                onChange={setCheckOutDate}
+                onChange={(newDate) =>
+                    dispatch(setCheckOutDate(newDate.toISOString()))
+                }
             />
         </div>
     );

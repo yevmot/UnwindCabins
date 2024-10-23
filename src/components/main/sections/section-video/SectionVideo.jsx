@@ -28,8 +28,9 @@ const SectionVideo = () => {
                                 reconnect with nature.
                             </p>
                         </div>
-                        <span class="view-all ">
-                            Learn more <span class="greater-than">&gt;</span>
+                        <span className="view-all ">
+                            Learn more{" "}
+                            <span className="greater-than">&gt;</span>
                         </span>
                     </div>
                     <div className="video-wrapper">

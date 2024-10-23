@@ -1,6 +1,8 @@
 import Map from "./../../../../../img/icons/map.svg";
 import { Autocomplete, TextField } from "@mui/material";
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setLocation } from "../../../../../store/locationSlice";
 
 const locations = [
     "Hampshire · England",
@@ -32,7 +34,10 @@ const IconWithText = ({ label = "I want to go" }) => {
 };
 
 const Location = ({ label }) => {
-    const [inputValue, setInputValue] = useState("");
+    const dispatch = useDispatch();
+    const location = useSelector((state) => state.location.location);
+    console.log("Текущее значение локации:", location);
+    const [inputValue, setInputValue] = useState(location || "");
 
     return (
         <div className="form-wrapper">
@@ -42,6 +47,7 @@ const Location = ({ label }) => {
                 inputValue={inputValue}
                 onInputChange={(event, newInputValue) => {
                     setInputValue(newInputValue);
+                    dispatch(setLocation(newInputValue));
                 }}
                 sx={{
                     "& .MuiAutocomplete-clearIndicator": {

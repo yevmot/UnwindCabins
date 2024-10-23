@@ -22,9 +22,9 @@ const HeaderNav = () => {
                     <a href="/" className="menu-link">
                         <span>About us</span>
                     </a>
-                    <button className="login">
+                    <div className="login">
                         <LoginButton />
-                    </button>
+                    </div>
                 </div>
             </div>
         </div>

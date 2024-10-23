@@ -16,7 +16,7 @@ const FooterForm = () => {
                     <div className="form-content">
                         <input
                             type="text"
-                            class="mail-form"
+                            className="mail-form"
                             placeholder="james@thegaintpeach.com"
                         />
                         <Button

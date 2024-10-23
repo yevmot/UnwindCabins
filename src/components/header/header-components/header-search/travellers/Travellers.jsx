@@ -6,13 +6,24 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import TravImg from "./../../../../../img/icons/travellers.svg";
 
+import { useDispatch, useSelector } from "react-redux";
+import { setTravelers } from "../../../../../store/travelersSlice.js";
+
 import "./style.css";
 
 export default function BasicSelect() {
-    const [travelers, setTravelers] = React.useState("");
+    const dispatch = useDispatch();
+    const travelersFromStore = useSelector(
+        (state) => state.travelers.travelers
+    );
+    console.log("Текущее значение путешественников:", travelersFromStore);
+
+    const [travelers, setTravelersState] = React.useState(travelersFromStore);
 
     const handleChange = (event) => {
-        setTravelers(event.target.value);
+        const newValue = event.target.value;
+        setTravelersState(newValue); // Обновляем локальное состояние
+        dispatch(setTravelers(newValue)); // Отправляем значение в Redux
     };
 
     return (
