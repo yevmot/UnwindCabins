@@ -21,6 +21,12 @@ export default function BasicButtons({
     return (
         <ThemeProvider theme={theme}>
             <Button
+                onClick={() => {
+                    console.log("clicked");
+                    if (onClick) {
+                        onClick();
+                    }
+                }}
                 variant="contained"
                 sx={{
                     fontFamily: "Poppins, sans-serif",

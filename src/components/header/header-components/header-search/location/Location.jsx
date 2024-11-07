@@ -35,9 +35,10 @@ const IconWithText = ({ label = "I want to go" }) => {
 
 const Location = ({ label }) => {
     const dispatch = useDispatch();
-    const location = useSelector((state) => state.location.location);
-    console.log("Текущее значение локации:", location);
+    const location = useSelector((state) => state.location?.location || "");
     const [inputValue, setInputValue] = useState(location || "");
+
+    console.log("Текущее значение локации:", location);
 
     return (
         <div className="form-wrapper">
@@ -47,7 +48,7 @@ const Location = ({ label }) => {
                 inputValue={inputValue}
                 onInputChange={(event, newInputValue) => {
                     setInputValue(newInputValue);
-                    dispatch(setLocation(newInputValue));
+                    dispatch(setLocation(newInputValue || ""));
                 }}
                 sx={{
                     "& .MuiAutocomplete-clearIndicator": {

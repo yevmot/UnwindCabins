@@ -8,7 +8,7 @@ const Find = () => {
             <div className="find-wrapper">
                 <div className="find-container">
                     <div className="find-gradient-bg">
-                        <div class="find-gradient"></div>
+                        <div className="find-gradient"></div>
                     </div>
                     <img className="find-bg" alt="find-bg" src={imgBg} />
                 </div>

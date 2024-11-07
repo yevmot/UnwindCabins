@@ -12,7 +12,9 @@ import { setTravelers } from "../../../../../store/travelersSlice.js";
 import "./style.css";
 
 export default function BasicSelect() {
+    // Сохраняю ссылку на функцию (хук)
     const dispatch = useDispatch();
+    // Получаю текущее состояние
     const travelersFromStore = useSelector(
         (state) => state.travelers.travelers
     );
@@ -21,9 +23,12 @@ export default function BasicSelect() {
     const [travelers, setTravelersState] = React.useState(travelersFromStore);
 
     const handleChange = (event) => {
+        // Записываю выбранное пользователем значение
         const newValue = event.target.value;
-        setTravelersState(newValue); // Обновляем локальное состояние
-        dispatch(setTravelers(newValue)); // Отправляем значение в Redux
+        // Обновляю локальное состояние
+        setTravelersState(newValue);
+        // Отправляю значение в Redux
+        dispatch(setTravelers(newValue));
     };
 
     return (
@@ -37,7 +42,6 @@ export default function BasicSelect() {
             <FormControl fullWidth>
                 <div>
                     <InputLabel
-                        id="demo-simple-select-label"
                         sx={{
                             fontFamily: "Poppins",
                             fontSize: "16px",

@@ -80,15 +80,3 @@ button {
     height: 54px;
     border-radius: 4px;
 }
-.btn {
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
-    background-color: var(--dark-green);
-}
-.btn:hover {
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.01);
-}

@@ -1,0 +1,74 @@
+.overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.form-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    max-width: 600px;
+    height: 600px;
+
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 35px 50px;
+}
+.active {
+    display: flex;
+}
+.close-modal-btn {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 20px !important;
+}
+
+.modal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    gap: 20px;
+}
+.modal-title {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    /* margin-bottom: 20px; */
+}
+.client-info {
+}
+.modal-text {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-top: 20px; */
+}
+.modal-input {
+    width: 80%;
+}
+.modal-title {
+    color: var(--light-green);
+}

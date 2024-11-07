@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    CheckInDate: null,
-    CheckOutDate: null,
+    CheckInDate: "",
+    CheckOutDate: "",
 };
 
 const dateSlice = createSlice({
@@ -10,10 +10,10 @@ const dateSlice = createSlice({
     initialState,
     reducers: {
         setCheckInDate: (state, action) => {
-            state.checkInDate = action.payload;
+            state.CheckInDate = action.payload;
         },
         setCheckOutDate: (state, action) => {
-            state.checkOutDate = action.payload;
+            state.CheckOutDate = action.payload;
         },
     },
 });

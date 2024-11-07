@@ -25,7 +25,7 @@ function DatePickerIn({ label, minDate, value, onChange }) {
             <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <MuiDatePicker
                     label={<LabelWithIcon label={label} />}
-                    alue={value}
+                    value={null}
                     onChange={onChange}
                     format="DD.MM.YYYY"
                     minDate={dayjs(minDate)}
